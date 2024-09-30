@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   outline: none;
-  font-family: "Diphylleia", serif;
+  font-family: "Diphylleia", system-ui;
 }
 
 html {
