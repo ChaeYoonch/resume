@@ -1,12 +1,30 @@
+/* 초기화 작업 */
 * {
   box-sizing: border-box;
   outline: none;
+  font-family: "Jua", sans-serif;
 }
 
 html {
   font-size: 13px;
+  color: #000;
 }
 
 body {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
 }
