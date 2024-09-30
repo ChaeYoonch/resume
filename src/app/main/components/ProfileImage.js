@@ -20,6 +20,13 @@ const StyledProfileImage = styled(ProfileImage)`
   height: 450px;
   padding: 50px 30px 10px;
   position: relative;
+
+  @media all and (max-width: 650px) {
+    & {
+      background-position: center bottom;
+    }
+  }
+
   .tit {
     position: absolute;
     bottom: 10px;

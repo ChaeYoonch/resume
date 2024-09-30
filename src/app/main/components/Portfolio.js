@@ -81,13 +81,13 @@ const Wrapper = styled.div`
     border-bottom: 2px solid #dbdbdb;
 
     li {
-      padding: 10px 25px;
+      padding: 12px 25px;
       cursor: pointer;
       border: 1px soild #dbdbdb;
       border-bottom: 0;
       margin-right: 5px;
       ling-height: 43px;
-      font-sixe: 1.4rem;
+      font-size: 1.3rem;
     }
 
     li.on {
