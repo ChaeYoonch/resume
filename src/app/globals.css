@@ -29,3 +29,15 @@ dl, dt, dd {
   margin: 0;
   padding: 0;
 }
+
+@media all and (max-width: 650px) { /* 반응형 최대 650 px */
+  hmtl {
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 420px) {  /* 반응형 최소 420 px */
+  hmtl {
+    font-size: 10px;
+  }
+}
