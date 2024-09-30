@@ -18,7 +18,7 @@ const Wrapper = styled.div`
     .bar {
       flex-grow: 1;
       height: 2px;
-      background: #bcbcbc;
+      background: #dbdbdb;
     }
   }
 `;
