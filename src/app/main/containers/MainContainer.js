@@ -5,6 +5,7 @@ import TopMenu from '../components/TopMenu';
 import InfoAbout from '../components/InfoAbout';
 import Experience from '../components/Experience';
 import Portfolio from '../components/Portfolio';
+import ProfileImage from '../components/ProfileImage';
 
 const options = {
   anchors: ['sectionOne', 'setionTwo', 'sectionThree'],
@@ -14,6 +15,7 @@ const MainContainer = () => {
   return (
     <>
       <TopMenu />
+      <ProfileImage />
       <SectionsContainer {...options}>
         <InfoAbout />
         <Experience />

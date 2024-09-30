@@ -5,8 +5,10 @@ const ProfileImage = ({ className }) => {
   return <div className={className}></div>;
 };
 
-const StyledProfileImage = styled.a(ProfileImage)`
-
+const StyledProfileImage = styled(ProfileImage)`
+  background: #dbdbdb;
+  height: 350px;
+  padding: 50px 30px 10px;
 `;
 
 export default React.memo(StyledProfileImage);
